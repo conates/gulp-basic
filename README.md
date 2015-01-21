@@ -1,9 +1,10 @@
 # gulp-basic
 Configuración básica para usar gulp
-# Task
-  gulp
-  gulp images
-  gulp js
-  gulp css
+
+-l lista todas las tareas
+  $ gulp
+  $ gulp images
+  $ gulp js
+  $ gulp css
   
   
