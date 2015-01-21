@@ -1,0 +1,39 @@
+{
+    "name": "Conates Instadminer",
+    "description": "Administrador de elementos para instagram",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "redbeanphp",
+                "version": "4.1.4",
+                "dist": {
+                    "url": "http://www.redbeanphp.com/downloadredbean.php",
+                    "type": "tar"
+                }
+            }
+        }
+
+    ],
+    "require": {
+        "slim/slim": "~2.5",
+        "cosenary/instagram": "~2.3",
+        "redbeanphp": "4.1.*",
+        "slim/extras": "dev-master"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "vendor/redbeanphp/rb.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "conates",
+            "email": "conates.ktn@gmail.com"
+        }
+    ]
+}
